@@ -16,6 +16,14 @@
 import setuptools
 
 setuptools.setup(
-    setup_requires=["setuptools_scm"],
-    use_scm_version=True,
+    name='tenacity',
+    version='8.0.1',
+    description='Retry code until it succeeds',
+    long_description='Tenacity is a general-purpose retrying library to simplify the task of adding retry behavior to just about anything',
+    author='Julien Danjou',
+    author_email='julien@danjou.info',
+    url='https://github.com/jd/tenacity',
+    license='Apache-2.0',
+    py_modules=['tenacity'],
+    install_requires=[]
 )
