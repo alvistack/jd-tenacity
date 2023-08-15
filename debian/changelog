@@ -1,0 +1,5 @@
+python-tenacity (100:8.1.0-1) UNRELEASED; urgency=medium
+
+  * https://github.com/jd/tenacity/releases/tag/8.1.0
+
+ -- Wong Hoi Sing Edison <hswong3i@pantarei-design.com>  Tue, 15 Aug 2023 11:07:26 +0800
