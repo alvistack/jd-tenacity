@@ -1,0 +1,4 @@
+python-tenacity source: file-without-copyright-information
+python-tenacity source: no-debian-changes
+python-tenacity source: source-contains-prebuilt-windows-binary
+python-tenacity source: source-package-encodes-python-version
