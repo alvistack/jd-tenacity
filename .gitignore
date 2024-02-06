@@ -10,3 +10,4 @@ ChangeLog
 doc/_build
 
 /.pytest_cache
+.pybuild/
