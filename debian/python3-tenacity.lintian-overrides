@@ -1,0 +1,4 @@
+python3-tenacity: copyright-without-copyright-notice
+python3-tenacity: initial-upload-closes-no-bugs
+python3-tenacity: no-manual-page
+python3-tenacity: zero-byte-file-in-doc-directory
