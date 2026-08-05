@@ -203,7 +203,7 @@ class RetryError(Exception):
 class AttemptManager:
     """Manage attempt context."""
 
-    def __init__(self, retry_state: "RetryCallState"):
+    def __init__(self, retry_state: "RetryCallState") -> None:
         self.retry_state = retry_state
 
     def __enter__(self) -> None:
@@ -249,7 +249,7 @@ class BaseRetrying(ABC):
         retry_error_callback: t.Callable[["RetryCallState"], t.Any] | None = None,
         name: str | None = None,
         enabled: bool = True,
-    ):
+    ) -> None:
         self.sleep = sleep
         self.stop = stop
         self.wait = wait

@@ -239,7 +239,9 @@ class retry_if_exception_message(retry_if_exception):
             )
 
         self.message = message
-        self.match = re.compile(match) if match is not None else None
+        self.match: re.Pattern[str] | None = (
+            re.compile(match) if match is not None else None
+        )
         super().__init__(self._check)
 
     def _check(self, exception: BaseException) -> bool:
